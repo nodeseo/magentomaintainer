@@ -1,7 +1,5 @@
-magentomaintainer
-=================
-
 Magento Maintainer
+=================
 
 # Backup Script
 
