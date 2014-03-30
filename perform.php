@@ -1,4 +1,8 @@
 <?php
+
+ini_set('memory_limit', '1024M');
+
+
 require 'Kint/Kint.class.php';
 require_once '../app/Mage.php';
 Mage::app();
