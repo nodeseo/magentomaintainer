@@ -13,8 +13,7 @@ Mage::app('admin');
 $session = Mage::getSingleton('adminhtml/session');
 
 $products = Mage::getResourceModel('catalog/product_collection')
-->addAttributeToSelect('*')
-->addAttributeToFilter('status', 1);
+->addAttributeToSelect('*');
 
 
 
