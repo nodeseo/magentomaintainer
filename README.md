@@ -1,7 +1,7 @@
 Magento Maintainer
 =================
 
-# Backup Script
+## Backup Script
 
 Magento Maintennance Script / Reindexer
 Author: sales@nodeseo.com
