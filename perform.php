@@ -29,7 +29,7 @@ function orphaned($products) {
   $notListed = array();
 	foreach($products as $product) {
 
-	$available = $product->getCategoryIds();
+	$available = $product->getAvailableInCategories();
 	
 		if(count($available) == 0) {
 			$notListed[] = $product;
